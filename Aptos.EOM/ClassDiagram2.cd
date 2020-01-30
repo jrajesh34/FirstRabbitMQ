@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="NameAndType">
+  <Class Name="Aptos.EOM.Model.ATPDate">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAQCACACAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Model\ATPDate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aptos.EOM.Dto.EDDRequestDto">
+    <Position X="10.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAABAACEAAAAAAAACAAQAAEEwAAAAEAAQBDAA=</HashCode>
+      <FileName>Dto\EDDRequestDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aptos.EOM.Dto.EDDResponseDto">
+    <Position X="13" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAShACAAAACAEAAAAAAAACAAAAAAAAAAAAABAAACAA=</HashCode>
+      <FileName>Dto\EDDResponseDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aptos.EOM.Dto.ItemDto">
+    <Position X="8" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAJAAAgAAAAQAAAABQAEgkAAAIAAAAiAAAMEA=</HashCode>
+      <FileName>Dto\ItemDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aptos.EOM.Model.Item">
+    <Position X="11.25" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAJAAAgAAAAQAAAABQAAAkAAACAAAAiAAAMAA=</HashCode>
+      <FileName>Model\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aptos.EOM.Model.ItemDimension">
+    <Position X="6" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\ItemDimension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aptos.EOM.Model.ShipToAddress">
+    <Position X="6" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAABQAAAAA=</HashCode>
+      <FileName>Model\ShipToAddress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aptos.EOM.Service.ATPService">
+    <Position X="7" Y="6.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\ATPService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.257" />
+  </Class>
+  <Class Name="Aptos.EOM.Model.EstimatedDeliveryDate">
+    <Position X="3.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAQAAAgAAAAAwCACACAAACAAAAAAABAAAASAg=</HashCode>
+      <FileName>Model\EstimatedDeliveryDate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Aptos.EOM.Interfaces.IATPService">
+    <Position X="7.25" Y="4.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IATPService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Aptos.EOM.Enums.ActionType">
+    <Position X="4.75" Y="6" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAEAAAAAAAAAAAAAAAAQAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\ActionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Aptos.EOM.Enums.RequestType">
+    <Position X="2" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAgAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\ActionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Aptos.EOM.Enums.ShippingMethod">
+    <Position X="4.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Enums\ActionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
